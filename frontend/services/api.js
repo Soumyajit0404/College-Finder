@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API,
+  baseURL:"https://college-backend-c8av.onrender.com",
 });
 
 export default API;
